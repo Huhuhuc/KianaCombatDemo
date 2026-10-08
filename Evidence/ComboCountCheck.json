@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "movement",
+      "passed": true
+    },
+    {
+      "name": "bounded ordered attack trial 0",
+      "passed": true
+    },
+    {
+      "name": "bounded ordered attack trial 1",
+      "passed": true
+    },
+    {
+      "name": "bounded ordered attack trial 2",
+      "passed": true
+    },
+    {
+      "name": "returns to idle without new input",
+      "passed": true
+    }
+  ],
+  "clips": {
+    "0": [
+      "Kiana_Attack1",
+      "Kiana_Attack2",
+      "Kiana_Attack3",
+      "Kiana_Attack4",
+      "Kiana_Attack5"
+    ],
+    "1": [
+      "Kiana_Attack1",
+      "Kiana_Attack2",
+      "Kiana_Attack3",
+      "Kiana_Attack4",
+      "Kiana_Attack5"
+    ],
+    "2": [
+      "Kiana_Attack1",
+      "Kiana_Attack2",
+      "Kiana_Attack3",
+      "Kiana_Attack4",
+      "Kiana_Attack5"
+    ]
+  },
+  "error": null
+}

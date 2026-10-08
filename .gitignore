@@ -1,0 +1,16 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+SourceAssets/
+Content/
+.vs/
+.idea/
+__pycache__/
+*.pyc
+*.sln
+*.suo
+*.VC.db
+.env
+.env.*
+*.pem

@@ -1,0 +1,426 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "enemy moves during chase",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "six attack clips used",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stun ends after player skill",
+      "passed": true,
+      "detail": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "name": "dodge displacement 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dodge displacement 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dodge displacement 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "back light reaction",
+      "passed": true,
+      "detail": "Monster_StrikeJaeger_Ani_Idle"
+    },
+    {
+      "name": "back heavy reaction",
+      "passed": true,
+      "detail": "Monster_StrikeJaeger_Ani_Debuff_Stun_Start"
+    },
+    {
+      "name": "repeated heavy recovers",
+      "passed": true,
+      "detail": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "name": "death terminal",
+      "passed": true,
+      "detail": "<EnemyState.DEAD: 6>"
+    },
+    {
+      "name": "locomotion resumes after actions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root stays near capsule",
+      "passed": true,
+      "detail": "0.0"
+    }
+  ],
+  "sequences": [
+    "Monster_StrikeJaeger_Ani_Attack01",
+    "Monster_StrikeJaeger_Ani_Attack02",
+    "Monster_StrikeJaeger_Ani_Attack03",
+    "Monster_StrikeJaeger_Ani_Attack04",
+    "Monster_StrikeJaeger_Ani_Attack05",
+    "Monster_StrikeJaeger_Ani_Attack06",
+    "Monster_StrikeJaeger_Ani_Death_Stay",
+    "Monster_StrikeJaeger_Ani_Debuff_Stun_End",
+    "Monster_StrikeJaeger_Ani_Debuff_Stun_Loop",
+    "Monster_StrikeJaeger_Ani_Debuff_Stun_Start",
+    "Monster_StrikeJaeger_Ani_Dodge",
+    "Monster_StrikeJaeger_Ani_Dodge_L",
+    "Monster_StrikeJaeger_Ani_Dodge_R",
+    "Monster_StrikeJaeger_Ani_Hit_H_Back",
+    "Monster_StrikeJaeger_Ani_Hit_H_Front",
+    "Monster_StrikeJaeger_Ani_Idle",
+    "Monster_StrikeJaeger_Ani_Run_Loop",
+    "Monster_StrikeJaeger_Ani_Run_Start",
+    "Monster_StrikeJaeger_Ani_Walk_F"
+  ],
+  "states": [
+    "<EnemyState.APPROACH: 1>",
+    "<EnemyState.ATTACK: 3>",
+    "<EnemyState.DEAD: 6>",
+    "<EnemyState.EVADING: 8>",
+    "<EnemyState.HURT: 7>",
+    "<EnemyState.IDLE: 0>",
+    "<EnemyState.RECOVER: 4>",
+    "<EnemyState.STUNNED: 5>",
+    "<EnemyState.TELEGRAPH: 2>"
+  ],
+  "max_root_offset": 0.0,
+  "samples": [
+    {
+      "t": 0.0,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.IDLE: 0>"
+    },
+    {
+      "t": 1.0,
+      "animation": "Monster_StrikeJaeger_Ani_Run_Start",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 1.67,
+      "animation": "Monster_StrikeJaeger_Ani_Run_Loop",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 2.0,
+      "animation": "Monster_StrikeJaeger_Ani_Walk_F",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 2.33,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.TELEGRAPH: 2>"
+    },
+    {
+      "t": 3.0,
+      "animation": "Monster_StrikeJaeger_Ani_Attack01",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 4.33,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 6.33,
+      "animation": "Monster_StrikeJaeger_Ani_Attack02",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 9.67,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 11.67,
+      "animation": "Monster_StrikeJaeger_Ani_Attack03",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 15.67,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 17.67,
+      "animation": "Monster_StrikeJaeger_Ani_Attack04",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 20.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 22.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack05",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 24.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 26.69,
+      "animation": "Monster_StrikeJaeger_Ani_Attack06",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 28.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 30.69,
+      "animation": "Monster_StrikeJaeger_Ani_Attack01",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 32.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 34.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack02",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 37.35,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 39.35,
+      "animation": "Monster_StrikeJaeger_Ani_Attack03",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 43.35,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 45.35,
+      "animation": "Monster_StrikeJaeger_Ani_Attack04",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 47.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 49.69,
+      "animation": "Monster_StrikeJaeger_Ani_Attack05",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 52.35,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 54.35,
+      "animation": "Monster_StrikeJaeger_Ani_Attack06",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 56.35,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 58.35,
+      "animation": "Monster_StrikeJaeger_Ani_Attack01",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 59.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 61.69,
+      "animation": "Monster_StrikeJaeger_Ani_Attack02",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 65.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 67.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack03",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 67.35,
+      "animation": "Monster_StrikeJaeger_Ani_Hit_H_Front",
+      "state": "<EnemyState.HURT: 7>"
+    },
+    {
+      "t": 68.02,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_Start",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 69.35,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_Loop",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 70.69,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_End",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 73.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 75.35,
+      "animation": "Monster_StrikeJaeger_Ani_Walk_F",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 76.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.TELEGRAPH: 2>"
+    },
+    {
+      "t": 76.69,
+      "animation": "Monster_StrikeJaeger_Ani_Attack04",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 79.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 79.35,
+      "animation": "Monster_StrikeJaeger_Ani_Dodge",
+      "state": "<EnemyState.EVADING: 8>"
+    },
+    {
+      "t": 80.36,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 82.02,
+      "animation": "Monster_StrikeJaeger_Ani_Walk_F",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 82.36,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.TELEGRAPH: 2>"
+    },
+    {
+      "t": 83.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack05",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 83.36,
+      "animation": "Monster_StrikeJaeger_Ani_Dodge_L",
+      "state": "<EnemyState.EVADING: 8>"
+    },
+    {
+      "t": 84.69,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 87.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack06",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 87.36,
+      "animation": "Monster_StrikeJaeger_Ani_Dodge_R",
+      "state": "<EnemyState.EVADING: 8>"
+    },
+    {
+      "t": 89.02,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 91.02,
+      "animation": "Monster_StrikeJaeger_Ani_Hit_L_Back_Up",
+      "state": "<EnemyState.HURT: 7>"
+    },
+    {
+      "t": 93.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack01",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 93.02,
+      "animation": "Monster_StrikeJaeger_Ani_Hit_H_Back",
+      "state": "<EnemyState.HURT: 7>"
+    },
+    {
+      "t": 93.36,
+      "animation": "Monster_StrikeJaeger_Ani_Hit_H_Back",
+      "state": "<EnemyState.HURT: 7>"
+    },
+    {
+      "t": 93.69,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_Start",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 95.02,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_Loop",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 96.36,
+      "animation": "Monster_StrikeJaeger_Ani_Debuff_Stun_End",
+      "state": "<EnemyState.STUNNED: 5>"
+    },
+    {
+      "t": 99.36,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.RECOVER: 4>"
+    },
+    {
+      "t": 101.02,
+      "animation": "Monster_StrikeJaeger_Ani_Walk_F",
+      "state": "<EnemyState.APPROACH: 1>"
+    },
+    {
+      "t": 101.36,
+      "animation": "Monster_StrikeJaeger_Ani_Idle",
+      "state": "<EnemyState.TELEGRAPH: 2>"
+    },
+    {
+      "t": 102.02,
+      "animation": "Monster_StrikeJaeger_Ani_Attack02",
+      "state": "<EnemyState.ATTACK: 3>"
+    },
+    {
+      "t": 104.36,
+      "animation": "Monster_StrikeJaeger_Ani_Death_Stay",
+      "state": "<EnemyState.DEAD: 6>"
+    }
+  ],
+  "error": null
+}

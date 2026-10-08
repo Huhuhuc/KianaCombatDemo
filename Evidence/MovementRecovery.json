@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "name": "held direction resumes after attack",
+      "passed": true
+    },
+    {
+      "name": "run releases to stationary",
+      "passed": true
+    },
+    {
+      "name": "player run stop clip used",
+      "passed": true
+    }
+  ],
+  "error": null
+}
